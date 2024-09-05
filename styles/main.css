@@ -68,7 +68,7 @@ body {
     align-items: center;
   }
   #main-content{
-    padding: 0 5px;
+    padding: 0% 5%;
   }
 
   .navbar-menu {
@@ -165,17 +165,22 @@ a:hover {
 .container {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 #main-content{
-  max-width: 800px;
+  max-width: 100%;
   margin-inline: auto;
   word-wrap: break-word;
+  padding: 0 5%;
 }
 .all-content {
   text-align: justify;
   max-width: 900px;
   margin-inline: auto;
+  width: 100%;
 }
 footer {
   width: 100%;
