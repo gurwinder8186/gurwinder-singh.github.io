@@ -3,6 +3,7 @@
   --color-white: #ffffff;
   --color-accent: #e88002;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -55,12 +56,50 @@ body {
   text-decoration: none;
   color: var(--color-white);
   transition: color 0.3s;
+  text-align: center;
+
 }
 
 .navbar-menu li a:hover {
   color: #989595;
 }
-
+.main-heading {
+  margin-top: 70px;
+  font-size: 28px;
+  text-align: center;
+  word-wrap: break-word;
+}
+#main-heading-h2 {
+  margin-top: 80px;
+  font-size: 18px;
+  text-align: justify;
+  word-wrap: break-word;
+  padding: 0 25px;
+}
+#para{
+  line-height: 3.6;
+  padding: 0px 100px;
+  color:black
+}
+#main-content{
+  max-width: 100%;
+  margin-inline: auto;
+  word-wrap: break-word;
+  padding: 0 5%;
+}
+#main-content p{
+  max-width: 100%;
+  margin-inline: auto;
+  word-wrap: break-word;
+  padding: 0 5%;
+  color:red;
+}
+.all-content {
+  text-align: justify;
+  max-width: 900px;
+  margin-inline: auto;
+  width: 100%;
+}
 @media (max-width: 768px) {
   .nav-bar {
     flex-direction: column;
@@ -102,17 +141,7 @@ main {
   min-height: 100vh;
 }
 
-.main-heading {
-  margin-top: 120px;
-  font-size: 28px;
-  text-align: center;
-  word-wrap: break-word;
-}
-#para{
-  line-height: 3.6;
-  padding: 50px 100px;
-  color:black
-}
+
 ul li h2 {
   font-size: 22px;
   margin-bottom: 10px;
@@ -122,7 +151,7 @@ ul li h2 {
 .container h2 {
   font-size: 22px;
   margin-bottom: 10px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .tips-list {
@@ -144,8 +173,8 @@ padding-top: 60px;
 .tips-list img {
   width: 100%;
   
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
   border-radius: 7px;
   margin-top: 10px;
   display: block;
@@ -170,18 +199,7 @@ a:hover {
   box-sizing: border-box;
 }
 
-#main-content{
-  max-width: 100%;
-  margin-inline: auto;
-  word-wrap: break-word;
-  padding: 0 5%;
-}
-.all-content {
-  text-align: justify;
-  max-width: 900px;
-  margin-inline: auto;
-  width: 100%;
-}
+
 footer {
   width: 100%;
   max-width: 900px;
