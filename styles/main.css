@@ -16,10 +16,9 @@ body {
   font-family: monospace;
   line-height: 1.6;
   flex-direction: column;
-  padding-top:60px;
+  padding-top: 60px;
   margin: 0;
   padding-bottom: 30px;
-
 }
 .nav-bar {
   display: flex;
@@ -57,7 +56,6 @@ body {
   color: var(--color-white);
   transition: color 0.3s;
   text-align: center;
-
 }
 
 .navbar-menu li a:hover {
@@ -76,23 +74,23 @@ body {
   word-wrap: break-word;
   padding: 0 25px;
 }
-#para{
+#para {
   line-height: 3.6;
   padding: 0px 100px;
-  color:black
+  color: black;
 }
-#main-content{
+#main-content {
   max-width: 100%;
   margin-inline: auto;
   word-wrap: break-word;
   padding: 0 5%;
 }
-#main-content p{
+#main-content p {
   max-width: 100%;
   margin-inline: auto;
   word-wrap: break-word;
   padding: 0 5%;
-  color:red;
+  color: red;
 }
 .all-content {
   text-align: justify;
@@ -106,7 +104,7 @@ body {
     align-items: flex-start;
     align-items: center;
   }
-  #main-content{
+  #main-content {
     padding: 0% 5%;
   }
 
@@ -118,29 +116,27 @@ body {
   .navbar-menu li {
     margin: 5px 0;
   }
-  body{
+  body {
     padding-top: 120px;
   }
   .tips-list img {
-  width: 100%;
-  max-width: 200px;
-  max-height: 200px;
-  
-  height: auto;
-  border-radius: 7px;
-  margin-top: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
 
+    height: auto;
+    border-radius: 7px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 main {
   flex: 1 0 auto;
   padding: 20px;
   min-height: 100vh;
 }
-
 
 ul li h2 {
   font-size: 22px;
@@ -156,14 +152,12 @@ ul li h2 {
 
 .tips-list {
   list-style-type: none;
-padding-top: 60px;
-  
+  padding-top: 60px;
 }
 
 .tips-list li {
   margin-bottom: 10px;
-  padding:20px  100px;
-
+  padding: 20px 100px;
 }
 
 .tips-list p {
@@ -172,7 +166,7 @@ padding-top: 60px;
 
 .tips-list img {
   width: 100%;
-  
+
   width: 300px;
   height: 200px;
   border-radius: 7px;
@@ -199,7 +193,6 @@ a:hover {
   box-sizing: border-box;
 }
 
-
 footer {
   width: 100%;
   max-width: 900px;
@@ -212,7 +205,7 @@ footer {
   color: var(--color-white);
   border-radius: 6px;
   margin: 0 auto;
-  right:0;
-  left:0;
+  right: 0;
+  left: 0;
   bottom: 0;
 }
