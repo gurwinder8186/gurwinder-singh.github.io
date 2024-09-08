@@ -87,14 +87,7 @@ body {
   max-width: 100%;
   margin-inline: auto;
   word-wrap: break-word;
-  padding: 0 5%;
-}
-#main-content p {
-  max-width: 100%;
-  margin-inline: auto;
-  word-wrap: break-word;
-  padding: 0 5%;
-  color: red;
+  padding: 0% 5%;
 }
 .all-content {
   text-align: justify;
@@ -108,9 +101,7 @@ body {
     align-items: flex-start;
     align-items: center;
   }
-  #main-content {
-    padding: 0% 5%;
-  }
+
 
   .navbar-menu {
     flex-direction: column;
