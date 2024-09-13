@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <title>Javascript Fundamentals</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav-bar">
+        <div class="brand">
+          <p>Javascript Fundamentals</p>
+        </div>
+        <ul class="navbar-menu">
+          <li><a href="/index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-link">Human Skills</a>
+            <ul class="dropdown-menu">
+              <li><a href="/blog/identity-values.html">Identity/Values</a></li>
+              <li><a href="/blog/learning-plan.html">Learning Plan</a></li>
+              <li>
+                <a href="/blog/emotional-intelligence.html"
+                  >Emotional Intelligence</a
+                >
+              </li>
+              <li><a href="/blog/tips.html">learning Tips</a></li>
+              <li><a href="/blog/te-houtaewa-template.html">Te-Houtaewa</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-link">Tech Blogs</a>
+            <ul class="dropdown-menu">
+              <li><a href="/blog/html-css.html">Tech Blog</a></li>
+              <li>
+                <a href="/blog/javascript-dom.html">Javascript Fundamentals</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="all-content">
+        <h1 class="main-heading">
+          <b>Javascript Fundamentals</b>
+        </h1>
+        <p style="font-size: 15px">
+          As I began learning HTML, JavaScript, CSS, and the Document Object Model (DOM), I felt
+          overwhelmed by the technical jargon. With help from facilitators,
+          fellow students, and my own research, I gained a basic understanding.
+          Now, I want to explain the basics of JavaScript and the DOM in simple
+          terms, with clear examples to help you understand better.
+        </p>
+        <h2 class="main-heading" id="main-heading-h2">
+          An analogy to describe JavaScript and its relationship to HTML and
+          CSS.
+        </h2>
+        <p id="main-content" style="padding: 0 25px; font-family: monospace">
+          <b
+            >i have used cooking a meal analogy to describe relationship between
+            Javascript, HTML and CSS</b
+          ><br /><br />
+          <b>HTML (Ingredients):</b> Think of HTML as the list of ingredients
+          for a recipe. It provides the basic components you'll need to make
+          your dish, such as flour, spices, sugar, and milk. <br />
+
+          <b>CSS (Presentation):</b> CSS is like the presentation of the meal.
+          It’s about how you plate and garnish the food, making it look
+          appealing. CSS adds the finishing touches, such as how the meal is
+          arranged on the plate, the color of the sauce, and the choice of
+          garnishes. <br />
+
+          <b>JavaScript (Cooking Instructions):</b> JavaScript is like the
+          cooking instructions or the chef’s actions. It tells you how to mix
+          the ingredients, adjust the heat, and perform tasks to turn raw
+          ingredients into a delicious meal. It adds the interactive, dynamic
+          elements that bring your dish to life—like stirring, baking, or
+          flipping the food. <br />In summary, HTML provides the raw
+          ingredients, CSS enhances the appearance, and JavaScript handles the
+          cooking to make the meal ready and interactive.
+        </p>
+        <h2 class="main-heading" id="main-heading-h2">
+          Explain control flow and loops using an example process from everyday
+          life.
+        </h2>
+        <p id="main-content" style="padding: 0 25px">
+          <b>Control flow</b> determines the sequence or pattern in which
+          different steps or decisions are executed. To illustrate control flow,
+          consider making a sandwich: <br />
+          <b>1.</b> Decide if you want a sandwich. If yes, proceed; if no, stop.
+          <br /><b>2.</b> Get the ingredients, such as bread and cheese. <br />
+          <b>3.</b> Assemble the sandwich, adding the required fillings. <br />
+          <b>4.</b> Serve or pack the sandwich. <br />In programming, control
+          flow is managed using statements like if-else or switch, which decide
+          what to do next based on certain conditions. <br /><br />
+          <b>Loops</b> are used to perform repetitive actions. For instance, if
+          you need to make sandwiches for a group of people: <br />
+          <b>1.</b> Repeat the process for each sandwich. <br /><b>2.</b> Get
+          ingredients for one sandwich. <br /><b>3.</b> Assemble and serve one
+          sandwich. <br /><b>4.</b> Move to the next sandwich until all
+          sandwiches are made. <br />In programming, this repetition is handled
+          by a for loop to repeat a set number of times or a while loop to
+          continue until a condition is met. <br /><br />
+          In summary, making a sandwich involves a sequence of steps (control
+          flow) and repeating those steps for multiple sandwiches (loops).
+          Similarly, in programming, control flow directs the order of
+          operations, while loops automate repetitive tasks
+        </p>
+
+        <h2 class="main-heading" id="main-heading-h2">
+          Describe what the DOM is and an example of how you might interact with
+          it.
+        </h2>
+        <p id="main-content" style="padding: 0 25px">
+          The Document Object Model (DOM) is a framework that organizes a web
+          page's content into a tree structure, where each element, attribute,
+          and text is a separate node. This setup allows programming languages
+          like JavaScript to dynamically interact with and alter the page’s
+          layout, style, and content. <br /><img
+            style="
+              width: 100%;
+              max-width: 800px;
+              height: auto;
+              border-radius: 7px;
+              margin-top: 30px;
+              display: block;
+            "
+            src="/images/Dom commands.png"
+            alt="basic dom commands"
+          /><br /><br />Essentially, the DOM provides a way to represent and
+          manipulate a web page’s elements, enabling you to select, change, and
+          respond to content and user interactions to create a more dynamic and
+          engaging experience.
+        </p>
+        <h2 class="main-heading" id="main-heading-h2">
+          Explain the difference between accessing data from arrays and objects.
+        </h2>
+        <p id="main-content" style="padding: 0 25px">
+          Accessing data from arrays and objects in java take in different
+          techniques due to their private structures. <b>Arrays</b> are ordered
+          collections of items indexed by numerical values, starting from 0. You
+          access array elements using their numeric index. Arrays are best
+          suited for lists of items where the order matters and you need to
+          access elements sequentially or by index. <b>Objects</b> are
+          collections of key-value pairs where each key is a string, and values
+          can be any type. You access object properties using their key, either
+          with dot notation or bracket notation. Objects are ideal for storing
+          data with named properties where you need to access values by specific
+          keys rather than by an order. <br /><br />
+          Array access elements by index <b>array [0]</b>, suited for ordered
+          collections. Objects access properties by key <b>object.Key</b>,
+          suited for unordered collections with named attributes.
+        </p>
+        <h2 class="main-heading" id="main-heading-h2">
+          Explain what functions are and why they are helpful.
+        </h2>
+        <p id="main-content" style="padding: 0 25px">
+          Function is a reusable block of code designed to perform a specific
+          task. It allows you to encapsulate a piece of logic and execute it
+          whenever needed, without having to rewrite the same code multiple
+          times. In java script we define them with function keyword, name and
+          parameters (if any) and then block of code. <br><br> Functions are essential in
+          programming because they enhance code efficiency and clarity. They
+          enable code reusability by allowing you to write a block of code once
+          and reuse it, reducing duplication. Functions enhance modularity by
+          dividing a program into smaller, manageable parts and provide
+          abstraction by simplifying complex tasks into easy-to-use calls,
+          hiding implementation details. Functions ease maintenance by
+          centralizing changes and improve readability with clear names that
+          define code purposes. They help manage complexity, making code more
+          organized and maintainable.
+        </p>
+      </div>
+      <footer class="home-footer">
+        <p>&copy; 2024 Gurwinder</p>
+      </footer>
+    </div>
+  </body>
+</html>
